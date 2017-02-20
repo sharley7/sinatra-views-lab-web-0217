@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+    <body>
+      <h1>Today</h1>
+      <p>
+        <% t = Time.now
+           current_time = t.strftime("%A, %B %d, %Y")
+        %>
+        The date is <%= "#{current_time}" %>
+      </p>
+    </body>
+</html>
